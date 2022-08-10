@@ -8,11 +8,12 @@ import {
   ControlAnimationComponent,
   SimpleTimelineComponent,
   WrapperPresentationComponent,
-  RotationToRightComponent
+  RotationToRightComponent,
+  InifitinyRepeatComponent
 } from './components'
 
 const COMPONENTS = [
-  MainComponent, ControlAnimationComponent, SimpleTimelineComponent,
+  MainComponent, ControlAnimationComponent, SimpleTimelineComponent, InifitinyRepeatComponent,
   WrapperPresentationComponent
 ]
 
@@ -21,7 +22,8 @@ const COMPONENTS = [
     AppComponent,
     ...COMPONENTS,
     WrapperPresentationComponent,
-    RotationToRightComponent
+    RotationToRightComponent,
+    InifitinyRepeatComponent
   ],
   imports: [
     BrowserModule,

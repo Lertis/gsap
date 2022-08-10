@@ -4,9 +4,10 @@ import { RouterModule, Routes } from '@angular/router'
 import {
   MainComponent,
   ControlAnimationComponent,
-  SimpleTimelineComponent
+  SimpleTimelineComponent,
+  InifitinyRepeatComponent,
+  RotationToRightComponent
 } from './components'
-import { RotationToRightComponent } from './components/controllers/rotation-to-right/rotation-to-right.component'
 
 import { RoutesPath } from './constants'
 
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: RoutesPath.ROTATION_TO_RIGHT,
     component: RotationToRightComponent
+  },
+  {
+    path: RoutesPath.INFINITY_REPEAT,
+    component: InifitinyRepeatComponent
   },
   {
     path: '**',

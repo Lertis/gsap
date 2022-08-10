@@ -19,6 +19,10 @@ export class AppComponent {
     {
       name: 'Control your animation',
       path: RoutesPath.CONTROL_ANIMATION
+    },
+    {
+      name: 'Infinity animation',
+      path: RoutesPath.INFINITY_REPEAT
     }
   ]
 }
