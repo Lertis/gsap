@@ -22,6 +22,6 @@ export class RotationToRightComponent implements AfterViewInit {
   }
 
   private readonly gsapRun = () => {
-    gsap.to(".green", { duration: 2, x: 200, rotation: 360, })
+    gsap.to(".green", { duration: 2, x: 200, rotation: 360 })
   }
 }
