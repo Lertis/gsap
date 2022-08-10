@@ -1,0 +1,33 @@
+.main-presentation-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: space-around;
+  height: 100%;
+  &__description {
+    flex: 1 1 auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+  }
+
+  &__example {
+    flex: 1 1 auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+  }
+
+  &__code {
+    flex: 1 1 auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+  }
+}

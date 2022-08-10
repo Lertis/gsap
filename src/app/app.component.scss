@@ -1,0 +1,35 @@
+.main-wraper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  background-color: #b7cadb;
+  height: 100%;
+  &__main {
+    padding: 1.5rem;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    &__item {
+      padding: 5px;
+      border-style: solid none solid none;
+      border-radius: 5px;
+      border-width: 1px;
+      cursor: pointer;
+      animation: appear 0.8s 1 both;
+      color: #493fed;
+      &__active {
+        color: #b83fed;
+      }
+    }
+  }
+}
+
+@keyframes appear {
+  @for $i from 0 through 100 {
+    #{$i * 1%} {
+      clip-path: polygon(0 0, ($i * 1%) 0, ($i * 1%) 100%, 0 100%);
+    }
+  }
+}
