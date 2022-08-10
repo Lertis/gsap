@@ -1,8 +1,8 @@
 <div class="main-wraper">
   <nav class="main-wraper__nav">
-    <a class="main-wraper__nav__item" [routerLink]="['main']" [routerLinkActive]="['main-wraper__nav__item__active']">{{ 'Main view' }}</a>
+    <a class="main-wraper__nav__item" [routerLink]="['main']" [routerLinkActive]="['main-wraper__nav__item__active']"><h4>{{ 'Main view' }}</h4></a>
     <ng-container *ngFor="let item of navItemsList">
-      <a class="main-wraper__nav__item" [routerLink]="[item.path]" [routerLinkActive]="['main-wraper__nav__item__active']">{{ item.name }}</a>
+      <a class="main-wraper__nav__item" [routerLink]="[item.path]" [routerLinkActive]="['main-wraper__nav__item__active']"><h4>{{ item.name }}</h4></a>
     </ng-container>
   </nav>
   <main class="main-wraper__main"><router-outlet></router-outlet></main>

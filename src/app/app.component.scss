@@ -12,16 +12,25 @@
     gap: 1rem;
     padding: 1.5rem;
     &__item {
-      padding: 5px;
+      padding: .5rem;
       border-style: solid none solid none;
       border-radius: 5px;
       border-width: 1px;
       cursor: pointer;
       animation: appear 0.8s 1 both;
       color: #493fed;
+      h4 {
+        color: #493fed;
+      }
       &__active {
         color: #b83fed;
+        h4 {
+          color: #b83fed;
+        }
       }
+    }
+    &__item:hover {
+      transform: scale(1.05);
     }
   }
 }

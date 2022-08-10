@@ -6,28 +6,32 @@
   height: 100%;
   &__description {
     flex: 1 1 auto;
-    border: 1px solid black;
+    border: 1px solid rgb(76 67 236);
     border-radius: 1rem;
     display: grid;
     place-content: center;
     padding: 1rem;
+    box-shadow: 3px 3px 3px 2px rgb(65 65 106 / 20%);
   }
 
   &__example {
     flex: 1 1 auto;
-    border: 1px solid black;
+    border: 1px solid rgb(76 67 236);
     border-radius: 1rem;
-    display: grid;
-    place-content: center;
+    display: flex;
+    place-content: flex-start;
+    align-items: center;
     padding: 1rem;
+    box-shadow: 3px 3px 3px 2px rgb(65 65 106 / 20%);
   }
 
   &__code {
     flex: 1 1 auto;
-    border: 1px solid black;
+    border: 1px solid rgb(76 67 236);
     border-radius: 1rem;
     display: grid;
     place-content: center;
     padding: 1rem;
+    box-shadow: 3px 3px 3px 2px rgb(65 65 106 / 20%);
   }
 }

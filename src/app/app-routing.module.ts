@@ -6,6 +6,7 @@ import {
   ControlAnimationComponent,
   SimpleTimelineComponent
 } from './components'
+import { RotationToRightComponent } from './components/controllers/rotation-to-right/rotation-to-right.component'
 
 import { RoutesPath } from './constants'
 
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: RoutesPath.SIMPLE_TIMELINE,
     component: SimpleTimelineComponent
+  },
+  {
+    path: RoutesPath.ROTATION_TO_RIGHT,
+    component: RotationToRightComponent
   },
   {
     path: '**',

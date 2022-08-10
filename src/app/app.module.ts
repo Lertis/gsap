@@ -3,7 +3,13 @@ import { BrowserModule } from '@angular/platform-browser'
 
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
-import { MainComponent, ControlAnimationComponent, SimpleTimelineComponent, WrapperPresentationComponent } from './components'
+import {
+  MainComponent,
+  ControlAnimationComponent,
+  SimpleTimelineComponent,
+  WrapperPresentationComponent,
+  RotationToRightComponent
+} from './components'
 
 const COMPONENTS = [
   MainComponent, ControlAnimationComponent, SimpleTimelineComponent,
@@ -14,7 +20,8 @@ const COMPONENTS = [
   declarations: [
     AppComponent,
     ...COMPONENTS,
-    WrapperPresentationComponent
+    WrapperPresentationComponent,
+    RotationToRightComponent
   ],
   imports: [
     BrowserModule,

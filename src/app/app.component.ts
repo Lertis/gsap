@@ -7,7 +7,11 @@ import { RoutesPath } from './constants'
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  navItemsList = [
+  navItemsList: { name: string, path: RoutesPath }[] = [
+    {
+      name: 'Rotation to right',
+      path: RoutesPath.ROTATION_TO_RIGHT
+    },
     {
       name: 'Simple time line',
       path: RoutesPath.SIMPLE_TIMELINE
